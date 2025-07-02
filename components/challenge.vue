@@ -2,9 +2,9 @@
   <div class="bg-gray-900 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:text-center">
-        <h2 class="text-base/7 font-semibold text-indigo-400">Deploy faster</h2>
-        <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl lg:text-balance">Everything you need to deploy your app</p>
-        <p class="mt-6 text-lg/8 text-gray-300">Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.</p>
+        <h2 class="text-base/7 font-semibold text-indigo-400">THE CHALLENGE</h2>
+        <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl lg:text-balance">Are You Drowning in SaaS Bloat?</p>
+        <p class="mt-6 text-lg/8 text-gray-300">Traditional SaaS solutions create more problems than they solve</p>
       </div>
       <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
         <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
@@ -15,9 +15,6 @@
             </dt>
             <dd class="mt-4 flex flex-auto flex-col text-base/7 text-gray-400">
               <p class="flex-auto">{{ feature.description }}</p>
-              <p class="mt-6">
-                <a :href="feature.href" class="text-sm/6 font-semibold text-indigo-400 hover:text-indigo-300">Learn more <span aria-hidden="true">→</span></a>
-              </p>
             </dd>
           </div>
         </dl>
@@ -31,25 +28,40 @@ import { ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon } from '@heroicons/vue/
 
 const features = [
   {
-    name: 'Push to deploy',
+    name: 'Vendor Lock-In',
     description:
-      'Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu.',
-    href: '#',
-    icon: CloudArrowUpIcon,
-  },
-  {
-    name: 'SSL certificates',
-    description:
-      'Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.',
-    href: '#',
+      'High recurring costs for limited utility with no easy exit strategy',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Siloed Systems',
     description:
-      'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod.',
-    href: '#',
+      "Tools that don't communicate, creating workflow bottlenecks",
     icon: ArrowPathIcon,
+  },
+  {
+    name: 'Poor UX',
+    description:
+      'Low employee engagement with clunky, non-intuitive interfaces',
+    icon: CloudArrowUpIcon,
+  },
+  {
+    name: 'Slow Updates',
+    description:
+      'Feature rollout delays and backlog issues from vendors',
+    icon: ArrowPathIcon,
+  },
+  {
+    name: 'Adaptation Issues',
+    description:
+      'Inability to rapidly respond to new compliance or operational needs',
+    icon: CloudArrowUpIcon,
+  },
+  {
+    name: 'Hidden Costs',
+    description:
+      'Customization often costs 7-9x the SaaS license fee',
+    icon: LockClosedIcon,
   },
 ]
 </script>
