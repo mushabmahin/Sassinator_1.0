@@ -4,9 +4,10 @@
   <Challenge/>
   <Approach/>
   <RealWorld/>
+  <Testimonial />
   <Contact />
   <Footer/>
-  <Testimonial />
+  
 </template>
 
 <script setup>
